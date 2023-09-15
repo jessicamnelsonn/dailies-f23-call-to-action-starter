@@ -1,0 +1,43 @@
+/* Body text */
+body {
+ font-family: "Lato", sans-serif;
+ font-size: 22px;
+ line-height: 1.5;
+ 
+ color: hsl(0, 0%, 100%);
+ background-color: hsl(300, 100%, 98%);
+}
+
+/* Call-to-action container */
+.cta {
+ max-width: 30ch;
+ padding: 2rem;
+ border-radius: 1rem;
+ margin:5rem auto;
+ background-color: hsl(298, 28%, 44%);
+}
+
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+font-family:"Carter One", serif;
+text-align: center;
+text-decoration: none;
+
+display: block;
+margin: 3.5rem;
+padding: 2rem 4rem;
+border-radius: .5rem;
+
+background-color: hsl(191, 97%, 85%);
+}
+
+/* Hover state */
+.cta a:hover {
+  color: hsl(313, 98%, 44%);
+  background-color: hsl(300, 100%, 98%);
+}
+
+/* Click state */
+.cta a:active {
+ background-color:hsl(288, 100%, 81%)
+}
